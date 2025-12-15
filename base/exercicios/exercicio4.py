@@ -1,0 +1,10 @@
+# Digite algo pelo teclado e mostre todas as informações possíveis
+string = input('Digite algo: ')
+print('O tipo primitivo é ',  type(string))
+print('Só tem espaços?' , string.isspace())
+print('É um número? ' , string.isnumeric())
+print('É alfabético? ' , string.isalnum())
+print('É alfanumérico? ' , string.isalpha())
+print('Está em maiúsculas? ' , string.isupper())
+print('Está em minúsculas? ' , string.islower())
+print('Está capitalizada? ' , string.istitle())
