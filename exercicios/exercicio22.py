@@ -1,0 +1,1 @@
+# Leia um número de 0 a 9999 e mostre digitos separados
