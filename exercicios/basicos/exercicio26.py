@@ -1,5 +1,5 @@
-# 
-n = input('Digite algo: ').upper().strip()
-print(f'A letra "A" aparece {n.count("A")} vezes.')
-print(f'A primeira letra A apareceu na posição {n.find("A")+1}.')
-print(f'A ultima letra A aparece na posição {n.rfind("A")+1}.')
+#  leia uma frase, verifique quantos A tem, a posição do primeiro e ultimo A
+frase =str(input('Digite uma frase: ')).upper().strip()
+print('A letra A aparece {} vezes na frase.'.format(frase.count('A')))
+print('A primeira letra A apareceu na posição {} '.format(frase.find('A')+1))
+print('A última letra A apareceu na posição {} '.format(frase.rfind('A')+1))

@@ -14,7 +14,7 @@ nome_da_variavel.find('deo') - mostra onde começou
 exemplo: 'curso ' in frase - retorna true
 
 Transformação
-nome_da_variavel.replace('Python', 'Android') - troca
+nome_da_variavel.replace('Python', 'Android') - troca e sem nada tira os espaços do meio
 nome_da_variavel.upper() - transforma em maiuscula, .lower() - minuscula
 nome_da_variavel.capitalize() - deixa tudo minusculo e só a 1 maiuscula
 nome_da_variavel.title() - quantas palavras tem, e colocar maiuscula na 1 de cada 
