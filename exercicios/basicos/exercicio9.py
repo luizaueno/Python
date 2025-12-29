@@ -1,5 +1,5 @@
 # mostre a tabuada de um numero
-n = int(input('Digite um númro: '))
+n = int(input('Digite um número: '))
 print('A Tabuada de {} é: '.format(n))
 print(n * 1)
 print(n * 2)
