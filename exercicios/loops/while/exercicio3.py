@@ -2,6 +2,29 @@
 
 n1 = float(input('Digite o primeiro número: '))
 n2 = float(input('Digite o segundo número: '))
-print('----------------------')
-print(input('O que deseja fazer com esses números? '))
-print('Digite 1 para: somar; 2 para: multiplicar; 3 para saber o maior; 4 para inserir novos; e 5 para sair do programa')
+
+print('--------------------')
+
+resposta = int(input('Digite 1 para: somar; 2 para: multiplicar; 3 para saber o maior; 4 para inserir novos; e 5 para sair do programa: '))
+
+while resposta != 5:
+    if resposta == 1:
+        soma = n1 + n2
+        print('A soma de {} e {} é igual a {}'.format(n1, n2, soma))
+    elif resposta == 2:
+        multi = n1 * n2
+        print('A multiplicação entre {} e {} é igual a {}'.format(n1, n2, multi))
+    elif resposta == 3:
+        if n1 > n2:
+            print('o maior número é: {}'.format(n1))
+        else:
+            print('o maior número é: {}'.format(n2))
+    elif resposta == 4:
+        n1 = float(input('Digite o primeiro número: '))
+        n2 = float(input('Digite o segundo número: '))
+ 
+    resposta = int(input('Digite 1 para: somar; 2 para: multiplicar; 3 para saber o maior; 4 para inserir novos; e 5 para sair do programa: '))
+
+print('Volte sempre!')
+
+print('--------------------')
