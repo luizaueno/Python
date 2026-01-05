@@ -8,10 +8,12 @@ import datetime
 status_inicial = 'desligado'
 status_atual = 'ligado' or 'desligado'
 comando = (input('(Ligar/Desligar) ')).upper().strip()
+
 if(comando == 'LIGAR'):
     status_atual = 'ligado'
 else:
     status_atual == 'desligado'
+
 agora = datetime.datetime.now()
 hora = agora.strftime("%H:%M:%S")
 print('Ar condicionado {} às {} ' .format(status_atual, hora))
@@ -27,4 +29,4 @@ if(status_atual == 'ligado'):
         status_atual ='ligado'
         print('Seu ar condicionado continua ligado ')
     else:
-        print('Digite em minúsculo ')
+        print('Digite algo válido')
