@@ -6,7 +6,7 @@ sistema de comandos envolvendo módulos e manipulação de string. simulando a i
 import datetime
 
 status_inicial = 'desligado'
-status_atual = 'ligado' or 'desligado'
+status_atual = 'desligado'
 comando = (input('(Ligar/Desligar) ')).upper().strip()
 
 if(comando == 'LIGAR'):
