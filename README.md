@@ -1,21 +1,48 @@
-# Fundamentos de Programação com Python
+🐍 Fundamentos de Programação com Python
 
 Este repositório reúne meus estudos e práticas em Python, com foco em:
-- lógica de programação
-- estruturas de dados básicas
-- simulação de sistemas
 
-## Estrutura do repositório
+Lógica de programação
 
-📁 exercicios  
-Exercícios práticos para fixação de conceitos fundamentais.
+Estruturas de dados básicas
 
-📁 projetos  
-Mini projetos desenvolvidos para aplicar a lógica em cenários próximos do mundo real  
-(ex: consumo de energia, monitoramento de temperatura, simulação de estados).
+Organização de código
 
-📁 teoria  
-Anotações e exemplos conceituais sobre os fundamentos da programação.
+Simulação de sistemas de automação e dispositivos inteligentes
 
-## Objetivo
-Consolidar a base lógica em Python como preparação para estudos em C e software embarcado.
+📁 Estrutura
+
+exercicios/
+Exercícios práticos para fixação dos conceitos fundamentais da linguagem.
+
+projetos/
+Mini projetos aplicando a lógica em cenários inspirados em:
+
+Automação
+
+Monitoramento de sensores
+
+Controle de dispositivos
+
+Simulação de sistemas inteligentes
+
+teoria/
+Anotações e exemplos conceituais sobre fundamentos da programação.
+
+🎯 Objetivo
+
+Consolidar uma base sólida em Python e lógica de programação como preparação para:
+
+Sistemas embarcados
+
+IoT
+
+Automação
+
+Robótica
+
+IA aplicada
+
+🚀 Em desenvolvimento
+
+Este repositório é atualizado continuamente conforme avanço nos estudos.

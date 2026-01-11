@@ -1,33 +1,89 @@
-tuplas
-1- crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso de zero a vinte. Ao digitar, deve mostrar por extenso
+listas
+🟦 Exercício 1 — Leitura de sensores
 
-2- Crie uma tabela preenchida com os 20 primeiros colocados na tabela do brasileirao e mostre:
-apenas os 5 primeiros
-os 4 ultimos
-ordem alfabética
-em que posição está chapecó
+Crie uma lista vazia.
+Leia 5 valores numéricos e armazene na lista.
+No final, mostre todas as leituras.
 
-3- Crie um programa que tenha uma tupla com 7 temperaturas (valores reais), representando a temperatura de cada dia da semana.
+Simula: leituras de sensores.
 
-O programa deve:
+🟦 Exercício 2 — Maior e menor leitura
 
-Mostrar todas as temperaturas
+Usando a lista do exercício anterior:
 
-Mostrar a maior e a menor temperatura
+Mostre o maior valor
 
-Mostrar a média das temperaturas
+Mostre o menor valor
 
-Informar em quais posições ocorreram temperaturas acima de 30°C
+Mostre a posição de cada um
 
+Simula: identificar sensor crítico.
 
-4- Crie uma tupla com valores de vendas realizadas durante um dia (valores inteiros).
+🟦 Exercício 3 — Cadastro de dispositivos sem duplicar
 
-O programa deve:
+Leia números até o usuário decidir parar.
+Cada número representa o ID de um dispositivo.
+Não permita IDs repetidos.
+No final, mostre a lista ordenada.
 
-Mostrar todas as vendas
+Simula: rede IoT com dispositivos únicos.
 
-Informar quantas vendas foram maiores que 100
+🟦 Exercício 4 — Separação de sinais
 
-Mostrar o total arrecadado
+Leia vários números.
+Guarde tudo em uma lista.
+Crie:
 
-Mostrar a posição da primeira venda igual a 50, caso exista
+uma lista com valores pares
+
+uma lista com valores ímpares
+
+Simula: separar sensores digitais e analógicos.
+
+🟦 Exercício 5 — Inserção ordenada
+
+Leia 5 números.
+Insira cada número na posição correta da lista,
+mantendo-a ordenada sem usar sort().
+
+Simula: registrar leituras já em ordem de prioridade.
+
+🟦 Exercício 6 — Cadastro de cargas de um robô
+
+Leia:
+
+Nome de uma carga
+
+Peso da carga
+
+Repita até o usuário parar.
+Guarde tudo em uma lista composta.
+
+Mostre:
+
+Quantas cargas foram cadastradas
+
+Qual a mais pesada
+
+Qual a mais leve
+
+Simula: robô transportando cargas.
+
+🟦 Exercício 7 — Matriz de navegação
+
+Crie uma matriz 3x3.
+Leia 9 valores e exiba a matriz formatada.
+
+Simula: mapa simples de navegação robótica.
+
+🟦 Exercício 8 — Análise da matriz
+
+Usando a matriz anterior:
+
+Some todos os valores pares
+
+Some os valores da terceira coluna
+
+Mostre o maior valor da segunda linha
+
+Simula: análise de sensores em ambiente.
