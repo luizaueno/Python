@@ -44,4 +44,3 @@ while resposta == 's':
     resposta =str(input('Deseja cadastrar outros sensores:[s/n]?'))
 print(f'Sensores cadastrados: {sensores}')
 
-
