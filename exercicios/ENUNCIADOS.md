@@ -1,1 +1,4 @@
-1- Faça um programa que leia o nome e a média de um aluno, guardando também a situação em um dicionário e mostre na tela
+funcoes
+1- faça um programa que tenha uma função chamada area que receba largura e altura e mostre a area
+
+2- função escreva() que recebe um texto e mostre uma linha de acordo com o tamanho
